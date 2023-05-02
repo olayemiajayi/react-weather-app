@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+h1 {
+  font-size: 40px;
+  color: black;
+}
+h2 {
+  color: black;
+  font-size: 25px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,18 +21,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #61dafb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 25px;
   color: white;
+}
+ul {
+  list-style-type: none;
 }
 
 .App-link {
   color: #61dafb;
+}
+.weather {
+  border: 3px solid #7c73e6;
+  border-radius: 8px;
+  padding: 40px;
 }
 
 @keyframes App-logo-spin {
