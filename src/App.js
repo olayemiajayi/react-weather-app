@@ -8,6 +8,15 @@ function App() {
       <header className="App-header">
         <h1> Weather App</h1>
         <Weather />
+        <small>
+          <a
+            href="https://github.com/olayemiajayi/react-weather-app"
+            target="_balnk"
+          >
+            Open-Source code
+          </a>
+          By Yetunde Ajayi
+        </small>
       </header>
     </div>
   );
